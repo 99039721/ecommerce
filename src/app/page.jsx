@@ -1,10 +1,10 @@
-import { Header } from "@/components/header";
+import { Logo } from "@/components/Logo";
 import React from "react";
 
 const Home = () => {
   return (
     <div>
-      <Header />
+      <Logo />
     </div>
   );
 };
