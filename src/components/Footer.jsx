@@ -1,10 +1,12 @@
+"use client";
+
 import React from "react";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <div className="w-[1440px] h-[440px] bg-accent-content">
+    <div className="w-[1440px] h-[440px] bg-[#000000]">
       <footer className="w-[1170px] h-[236px] footer text-base-100 gap-[87px] mt-[80px] mx-[135px]">
         <nav className="w-[217px] h-[188px] gap-4">
           <h6 className="footer-title">Exclusive</h6>

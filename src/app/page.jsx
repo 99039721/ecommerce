@@ -1,10 +1,10 @@
-import { Logo } from "@/components/Logo";
+import { Today } from "@/components/Today";
 import React from "react";
 
 const Home = () => {
   return (
-    <div>
-      <Logo />
+    <div className="bg-slate-200">
+      <Today />
     </div>
   );
 };
